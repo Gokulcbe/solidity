@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "addEmployee",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "variable",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "Name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "empId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/struct.sol": "structs"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/struct.sol": {
+			"keccak256": "0x7ea61fc89c90b31cc7b762843cd393283192b88ec23ee4878bb69ae3581d949c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1780b632c1ae9b88602f0ff4d79c7955250d8891f7eed344c4fdc292c4ad1cb4",
+				"dweb:/ipfs/QmcbRG5QTyaW6iFYMHTmQ9Mwz98GeffJ3ho2PtnGXKryFi"
+			]
+		}
+	},
+	"version": 1
+}

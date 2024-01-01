@@ -1,0 +1,61 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getInstructor",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					},
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ethereum.sol": "eth"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ethereum.sol": {
+			"keccak256": "0x46ebcfeb02af78ae0091d986b395e4fe76cac4e51995f7826c7b21be3283bdfd",
+			"urls": [
+				"bzzr://504003f9db4d03c9562b507a6f516710ebd46e27d4c31240c01598f324596e8f"
+			]
+		}
+	},
+	"version": 1
+}

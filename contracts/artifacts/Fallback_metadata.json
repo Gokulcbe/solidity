@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "calledFunction",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getbal",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Fallback.sol": "Fallback"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Fallback.sol": {
+			"keccak256": "0xc5475ba8e66adfb9deb89a88194ec697a143ed303ebca822917eeed6f9c3a053",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://93bac2bc066172a6b0d37a8da5ee4941a3823d0941f1f40e9accf73e73035bc9",
+				"dweb:/ipfs/QmPEw27vjiVwzDGErXCkmo9jg6wF57As3RVNBYSFYKm9E4"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getbal",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sendEthCall",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/FallbackSendEth.sol": "SendEther"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/FallbackSendEth.sol": {
+			"keccak256": "0xa0d446b685b9f4c5b281e646e46a1ec5660850441297636d3d8116cb5cf50e17",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9e47918b85f2ca774ebd7004ad1fb170d36955eb761f3399576f8a203ec896ca",
+				"dweb:/ipfs/QmaQFmpF1qBzrRnyfNtkNFBSZvnn4Pc749hEpyVF4B7WCy"
+			]
+		}
+	},
+	"version": 1
+}

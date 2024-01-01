@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_a",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_b",
+						"type": "string"
+					}
+				],
+				"name": "concat",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "results",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/stringconcat.sol": "stringconcat"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/stringconcat.sol": {
+			"keccak256": "0xc27e93ede8234d35e756317b5c67069989a02a688a3a6794e071348c1dd1dfd8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f96a61790ba821f620480e13e0fa390ac9b8a2ec5e764f0d5d11a887e608ab28",
+				"dweb:/ipfs/QmNaS7dasPCRuENzvW4o4uu4qnQaxfX76DhTCP4t2y47VY"
+			]
+		}
+	},
+	"version": 1
+}

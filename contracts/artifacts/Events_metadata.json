@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "_sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "userDetails",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_sender",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "emitEvent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Events.sol": "Events"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Events.sol": {
+			"keccak256": "0x1f79e725094a82fe91ae4415aa4a50574dfc5c52ba3c4a30f9129f8c74bd484d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9b17f3a560f9049f0a897d0b0ebf0c148ccf90bc08d4da74a4ba1f62681ba73a",
+				"dweb:/ipfs/QmZVWChjjwLPebqab96v84oM8qS2LDYqk1RKPFRJcDe9kD"
+			]
+		}
+	},
+	"version": 1
+}

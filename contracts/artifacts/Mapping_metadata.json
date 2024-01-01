@@ -1,0 +1,103 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "addEmployee",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "addperson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "employees",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "empname",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "person",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Mapping.sol": "Mapping"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Mapping.sol": {
+			"keccak256": "0xb52f003e4abc5e24148cdace9caa12dada7237b759b8ecf852edfce6cef698a2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fcd9ec317212ba1d0ace02c776d6900d1a1eb6c5d9bc63b6d333edf40a6f5885",
+				"dweb:/ipfs/QmRQzC3ciJyXsxGiyQoJEfRLspbA2M1PaoDLXHwk2BXxmU"
+			]
+		}
+	},
+	"version": 1
+}

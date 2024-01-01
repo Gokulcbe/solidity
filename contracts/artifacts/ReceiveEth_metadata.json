@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "cellPhone",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sendEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/receivereth.sol": "ReceiveEth"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/receivereth.sol": {
+			"keccak256": "0x116a361bd1acd9aca69c60c111329c8e163d384b4d8cd01664037bfd2f10637a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f0519bffd40508f2a085da8226137d9ed6004f39c56496a5732e6f0d11c3b250",
+				"dweb:/ipfs/QmXjPcdTHW1Vd3eVCzhckH2ydxQWKer3RR1Q8dUPoG9P1s"
+			]
+		}
+	},
+	"version": 1
+}

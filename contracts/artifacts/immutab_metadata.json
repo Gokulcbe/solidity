@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pincode",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/constvsimmutable.sol": "immutab"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/constvsimmutable.sol": {
+			"keccak256": "0xe505a9f825c8bea190c5fa1390f7e6873db17efe30d737aa3e7ce5624f0ea648",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0c0f228abd73cdccaaa4443a6bc38c86a4250a6c3b207d00f73ff096bff0344a",
+				"dweb:/ipfs/QmdqAasnZ3HiC5Uoy8txNSVaWbEEZSbPWonhPQJwFmhgcg"
+			]
+		}
+	},
+	"version": 1
+}

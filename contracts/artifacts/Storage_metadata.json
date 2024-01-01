@@ -1,0 +1,97 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "accessExternal",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_accountname",
+						"type": "string"
+					}
+				],
+				"name": "displayAcc",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_a",
+						"type": "string"
+					}
+				],
+				"name": "result",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/storagetypes.sol": "Storage"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/storagetypes.sol": {
+			"keccak256": "0x1f983a5ae72003019085121c3cef07369e4a8c4db3d62b74b765140060bab93c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8981e741a11f7ed5f76607371f7e45842d75b8d6f8da74dfa6971cffe2e572aa",
+				"dweb:/ipfs/QmayWesUMdUtvWNMHqaaWiULmS6bqDBkkX1BzS6PpqWGdP"
+			]
+		}
+	},
+	"version": 1
+}

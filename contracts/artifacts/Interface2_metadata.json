@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getname",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "setname",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Interface2.sol": "Interface2"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Interface2.sol": {
+			"keccak256": "0xb0763b38ebef159d3b32bd5b906e92cccfb7ca8ac3f7146cbd08cbca46327a58",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0e021d2b158033aa8e4806d47a26dffe4e810b38d5577d9a5fb862f9bc1a3e3a",
+				"dweb:/ipfs/QmYcPf2c59t7EHVRJ6XMdzYRA6YBexafn81wRkURHfWMuM"
+			]
+		}
+	},
+	"version": 1
+}

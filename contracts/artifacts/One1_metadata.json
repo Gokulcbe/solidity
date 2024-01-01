@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "oneFunc",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Override.sol": "One1"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Override.sol": {
+			"keccak256": "0x4a74e6d19191dfffd90d7c37323d410e24ff864d101e1c74690e78b66e5afb0c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://843b379293a4686b26ba4babfcb08f05de4e8836724b1b68d7de1f8ad36ce514",
+				"dweb:/ipfs/QmfDMLs525EoECcNXB4dqMTuPCiqAyC5uaEJxY5Nmx5Eyy"
+			]
+		}
+	},
+	"version": 1
+}

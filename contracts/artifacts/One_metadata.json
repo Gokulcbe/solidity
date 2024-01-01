@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "externalOneFunc",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "publicOneFunc",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/VisibilityMod.sol": "One"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/VisibilityMod.sol": {
+			"keccak256": "0x2082e66afc8af9ad17ee0b9b1ef3e95d02315ee9a4839fc0ff8bac14afaa6a34",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://410d3a5ac0e2cabd9b3a4d08114bfbaeb7b95a8fe2655231c294e279060def81",
+				"dweb:/ipfs/QmevFkYgLpvHuUDE2eU3QphhtMy87NQRsM7JA9YHWV8RHG"
+			]
+		}
+	},
+	"version": 1
+}

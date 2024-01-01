@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "pinc",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "_a",
+						"type": "int256"
+					},
+					{
+						"name": "_b",
+						"type": "int256"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/functions.sol": "Functions"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/functions.sol": {
+			"keccak256": "0x12f88ae97e1c98ad482aea9080ada6f0d39918b12f534a7762a7e93afd7dc8a8",
+			"urls": [
+				"bzzr://bcf6bf7fa4242ca3150cbf1cf3ec8714d7a3029554286cfcee57b2860bc49145"
+			]
+		}
+	},
+	"version": 1
+}
